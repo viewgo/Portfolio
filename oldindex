@@ -1,0 +1,238 @@
+ <!-- <div class="container">
+        <header></header>
+
+        <section class="sideBar">
+          <div class="sideTop">
+            <div class="contact">
+              <div>
+                <div><i class="fas fa-map-marker-alt"></i></div>
+                <div><p>414 E 12th St, 64106</p></div>
+              </div>
+
+              <div>
+                <div><i class="fas fa-phone-square"></i></div>
+                <div><p>913-123-4567</p></div>
+              </div>
+
+              <div>
+                <div><i class="fas fa-envelope-square"></i></div>
+                <div><a href="#">Email Me</a></div>
+              </div>
+
+              <div>
+                <div><i class="far fa-window-maximize"></i></div>
+                <div>
+                  <a
+                    href="https://viewgo.github.io/portfolio-website/portfolio/" target="_blank"
+                  >
+                    Website</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sideBottom">
+            <div>
+              <h2>About Me</h2>
+              <br />
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+                officia est saepe nostrum consectetur repudiandae! Consectetur
+                voluptate unde iusto maiores! Iusto assumenda sequi earum
+                consequatur obcaecati fugiat iste mollitia quod.
+              </p>
+              <br />
+              <hr />
+              <br />
+            </div>
+
+            <div>
+              <h2>Follow Me</h2>
+              <br />
+              <div class="divIcons">
+                <a href="#"><i class="fab fa-facebook-square fa-2x"></i></a>
+                <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="#"><i class="fab fa-twitter-square fa-2x"></i></a>
+                <a href="https://github.com/viewgo" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+              </div>
+
+              <br />
+              <hr />
+              <br />
+            </div>
+
+            <div class="references">
+              <h2>References</h2>
+              <br />
+              <h4>John Smith</h4>
+              <div class="divIcons">
+                <a
+                  ><i
+                    class="fas fa-phone-square fa-2x"
+                    title="(816) 390-4056"
+                  ></i
+                ></a>
+                <a href="#"><i class="fas fa-envelope-square fa-2x"></i></a>
+                <a href="#"><i class="far fa-window-maximize fa-2x"></i></a>
+              </div>
+
+              <br />
+              <h4>Paul Blart</h4>
+              <div class="divIcons">
+                <a
+                  ><i
+                    class="fas fa-phone-square fa-2x"
+                    title="(816) 129-3821"
+                  ></i
+                ></a>
+                <a href="#"><i class="fas fa-envelope-square fa-2x"></i></a>
+                <a href="#"><i class="far fa-window-maximize fa-2x"></i></a>
+              </div>
+
+              <br />
+              <h4>Thomas Bangalter</h4>
+              <div class="divIcons">
+                <a
+                  ><i
+                    class="fas fa-phone-square fa-2x"
+                    title="(785) 555-8391"
+                  ></i
+                ></a>
+                <a href="#"><i class="fas fa-envelope-square fa-2x"></i></a>
+                <a href="#"><i class="far fa-window-maximize fa-2x"></i></a>
+              </div>
+
+              <br />
+              <hr />
+              <br />
+            </div>
+
+            <div>
+              <h2>Languages</h2>
+              <br />
+              <p>English</p>
+              <p>Portuguese</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="content">
+          <div class="contentTop">
+            <div class="name">
+              <h1>Hugo Oliveira</h1>
+              <br />
+            </div>
+
+            <div class="navContainer">
+              <nav>
+                <a href="#work">Work Experience</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#hobbies">Hobbies</a>
+              </nav>
+            </div>
+          </div>
+
+          <div class="mainContent">
+            <div id="work">
+              <h2>Work Experience</h2>
+              <br />
+
+              <h3>Super Duper Director of Stuff</h3>
+              <h4>May 2013 - Current</h4>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor
+                molestiae exercitationem ab. Ratione illo sapiente officiis?
+                Tempora nam fugit vitae doloremque hic facere! Aut dolorem,
+                adipisci error facere voluptas incidunt.
+              </p>
+              <br />
+
+              <h3>Disappointing Menial Work</h3>
+              <h4>May 2009 - May 2013</h4>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+                ipsa animi iste illum quae pariatur alias, architecto esse
+                fugiat perspiciatis maiores accusantium unde assumenda quas
+                laboriosam neque magnam consequatur necessitatibus.
+              </p>
+              <br />
+
+              <h3>Seemingly Worthless Job</h3>
+              <h4>June 2007 - May 2009</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
+                commodi cumque eos dolor corrupti odit, ipsum quasi, fuga nihil
+                tempore dicta ex, amet a. Natus non ad similique necessitatibus
+                laudantium?
+              </p>
+              <br />
+
+              <br />
+              <hr />
+              <br />
+            </div>
+
+            <div id="education">
+              <h2>Education</h2>
+              <br />
+
+              <h3>Lambda School</h3>
+              <h4>Ongoing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita cumque natus quos fugiat doloremque. Itaque numquam
+                quis ducimus expedita. Illo aliquid vel dolore possimus nostrum
+                ab itaque dolorum natus sequi!
+              </p>
+              <br />
+
+              <h3>University School</h3>
+              <h4>Associate's Degree of Something</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Corporis inventore beatae, voluptatibus porro laborum non magni
+                hic perferendis accusantium itaque corrupti quas suscipit
+                consequatur tempora enim velit alias ipsam dignissimos.
+              </p>
+
+              <br />
+              <hr />
+              <br />
+            </div>
+
+            <div class="skillsAndHobbies">
+              <div id="skills">
+                <h2>Skills</h2>
+                <br />
+                <ul>
+                  <li>Typing</li>
+                  <li>Reading</li>
+                  <li>Speaking</li>
+                  <li>Listening</li>
+                </ul>
+                <br />
+              </div>
+
+              <div id="hobbies">
+                <h2>Hobbies</h2>
+                <br />
+                <ul>
+                  <li>Harder</li>
+                  <li>Better</li>
+                  <li>Faster</li>
+                  <li>Stronger</li>
+                </ul>
+                <br />
+              </div>
+            </div>
+
+            <div class="backToTop">
+              <a href="#"><i class="fas fa-arrow-circle-up fa-3x"></i></a>
+            </div>
+          </div>
+        </section> 
+
+        <footer></footer>
+      </div>-->

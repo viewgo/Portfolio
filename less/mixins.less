@@ -1,0 +1,41 @@
+.top() {
+    height: 200px;
+    padding-bottom: 10%;
+
+    @media (max-width: 500px) {
+        height: 100%;
+    }
+}
+
+.center() {
+    text-align: center;
+}
+
+.sideFont() {
+    color: @subColor;
+
+    a {
+        color: @color3;
+        text-decoration: none;
+    }
+    a:hover {
+        color: @subColor;
+    }
+}
+
+.mainFont() {
+    color: @mainColor;
+
+    a {
+        color: @color4;
+        font-family: @pFont;
+        text-decoration: none;
+
+        @media (max-width: 500px) {
+        }
+    }
+
+    a:hover {
+        color: @mainColor;
+    }
+}

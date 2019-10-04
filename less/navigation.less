@@ -1,0 +1,24 @@
+.topBar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 3% 3%;
+    background-color: @mainColor;
+    display: flex;
+
+    .sideFont();
+
+    nav {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+        a {
+            font-family: @headerFont;
+        }
+
+        a.anchor {
+            top: -250px;
+        }
+    }
+}

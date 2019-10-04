@@ -1,0 +1,172 @@
+.bgContainer {
+    background-image: url(../img/bg.jpg);
+    // background-size: 100%;
+    // object-fit: cover;
+    background-repeat: repeat;
+    width: 100%;
+    margin: 0 auto;
+    // height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    @media (min-width: 1400px) {
+        width: 80%;
+    }
+
+    @media (max-width: 500px) {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+.container {
+    // border: 1px solid red !important;
+
+    width: 100%;
+    padding: 2% 2%;
+    // margin: 3rem auto;
+    display: flex;
+    flex-flow: column nowrap;
+
+    
+
+    @media (max-width: 800px) {
+    }
+    
+    @media @phone {
+        
+    }
+}
+
+.content {
+    // border: 1px solid blue !important;
+    width: 100%;
+    height: 100%;
+    padding: 3% 3%;
+    background-color: @subColor;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    @media @phone {
+        width: 100%;
+    }
+    .mainFont();
+
+    h2{
+        margin: 3% 0px 2%;
+        
+    }
+
+    .card {
+        width: 70%;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 1px 6px -2px #000;
+        background-color: @subColor;
+        margin: 10px;
+        
+
+        @media @phone{
+            width: 90%;
+        }
+    }
+
+    .gitcardholder{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .holder {
+        width: 100%;
+        display: flex;
+        
+      }
+      
+      .expand-button{
+        font-size: 1.4rem;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 5px;
+        /* box-shadow: 0 1px 6px -2px #000; */
+        color: @color4;
+        padding: 5px;
+        width: 100%;
+        cursor: pointer;
+      }
+      
+      .calendar{
+        border-radius: 5px;
+        box-shadow: 0 1px 6px -2px #000;
+        width: 100%;
+        padding: 10px;
+        margin-top: 20px;
+      }
+      
+      .calendar-hidden{
+        display: none;
+      }
+
+      .gitcard {
+        width: 70%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 1px 6px -2px #000;
+        background-color: @subColor;
+        margin: 10px;
+        line-height: 1.4;
+
+        @media @phone{
+            width: 90%;
+        }
+      }
+      
+      .gitcard .holder img {
+        width: 150px;
+        height: 150px;
+        border-radius: 3px;
+        margin-right: 20px;
+
+        @media @phoneS{
+            display: none;
+        }
+      }
+      
+      .gitcard .name {
+        font-size: 3.4rem;
+      }
+      
+      .gitcard p {
+        font-size: 1.4rem;
+        margin-bottom: 3px;
+      }
+      
+      .gitcard .username {
+        font-size: 1.8rem;
+        font-style: italic;
+        margin: 3px 0 10px;
+      }
+
+      .gitcard a{
+          font-size: 1.4rem;
+      }
+
+}
+
+.divIcons {
+    display: flex;
+    justify-content: space-around;
+}

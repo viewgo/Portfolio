@@ -1,0 +1,84 @@
+html {
+    font-size: 62.5%;
+
+    hr {
+        width: 100%;
+        overflow: visible; /* For IE */
+        padding: 0;
+    }
+}
+
+body {
+    background-color: @subColor;
+
+    line-height: 1.5;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: @headerFont;
+    }
+
+    p,
+    ul,
+    a {
+        font-family: @pFont;
+        font-size: 1.6rem;
+
+        @media (max-width: 800px) {
+            font-size: 1.4rem;
+        }
+
+        @media (max-width: 500px) {
+            font-size: 1.2rem;
+        }
+    }
+
+
+
+    ul {
+        list-style: disc;
+        list-style-position: inside;
+    }
+
+    h1 {
+        font-size: 5rem;
+        text-transform: uppercase;
+
+        @media (max-width: 500px) {
+            font-size: 3rem;
+        }
+    }
+    h2 {
+        font-size: 2.5rem;
+
+        @media (max-width: 500px) {
+            font-size: 2rem;
+        }
+    }
+    h3 {
+        font-size: 2rem;
+
+        @media (max-width: 500px) {
+            font-size: 1.6rem;
+        }
+    }
+    h4 {
+        font-size: 1.6rem;
+
+        @media (max-width: 500px) {
+            font-size: 1.4rem;
+        }
+    }
+
+    :target:before {
+        content:"";
+        display:block;
+        height:90px; /* fixed header height*/
+        margin:-90px 0 0; /* negative fixed header height */
+        }
+
+}

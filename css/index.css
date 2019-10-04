@@ -1,0 +1,412 @@
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Montserrat Medium'), local('Montserrat-Medium'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gnD-w.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Playfair Display Regular'), local('PlayfairDisplay-Regular'), url(https://fonts.gstatic.com/s/playfairdisplay/v15/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYhQ.ttf) format('truetype');
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+html hr {
+  width: 100%;
+  overflow: visible;
+  /* For IE */
+  padding: 0;
+}
+body {
+  background-color: #f1f1f2;
+  line-height: 1.5;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: "Montserrat", sans-serif;
+}
+body p,
+body ul,
+body a {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 1.6rem;
+}
+@media (max-width: 800px) {
+  body p,
+  body ul,
+  body a {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 500px) {
+  body p,
+  body ul,
+  body a {
+    font-size: 1.2rem;
+  }
+}
+body ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+body h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+@media (max-width: 500px) {
+  body h1 {
+    font-size: 3rem;
+  }
+}
+body h2 {
+  font-size: 2.5rem;
+}
+@media (max-width: 500px) {
+  body h2 {
+    font-size: 2rem;
+  }
+}
+body h3 {
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  body h3 {
+    font-size: 1.6rem;
+  }
+}
+body h4 {
+  font-size: 1.6rem;
+}
+@media (max-width: 500px) {
+  body h4 {
+    font-size: 1.4rem;
+  }
+}
+body :target:before {
+  content: "";
+  display: block;
+  height: 90px;
+  /* fixed header height*/
+  margin: -90px 0 0;
+  /* negative fixed header height */
+}
+.topBar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 3% 3%;
+  background-color: #02101d;
+  display: flex;
+  color: #f1f1f2;
+}
+.topBar a {
+  color: #a1d6e2;
+  text-decoration: none;
+}
+.topBar a:hover {
+  color: #f1f1f2;
+}
+.topBar nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.topBar nav a {
+  font-family: "Montserrat", sans-serif;
+}
+.topBar nav a.anchor {
+  top: -250px;
+}
+.bgContainer {
+  background-image: url(../img/bg.jpg);
+  background-repeat: repeat;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (min-width: 1400px) {
+  .bgContainer {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .bgContainer {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+.container {
+  width: 100%;
+  padding: 2% 2%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.content {
+  width: 100%;
+  height: 100%;
+  padding: 3% 3%;
+  background-color: #f1f1f2;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: #02101d;
+}
+@media (max-width: 500px) {
+  .content {
+    width: 100%;
+  }
+}
+.content a {
+  color: #1995ad;
+  font-family: "Playfair Display", sans-serif;
+  text-decoration: none;
+}
+.content a:hover {
+  color: #02101d;
+}
+.content h2 {
+  margin: 3% 0px 2%;
+}
+.content .card {
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px -2px #000;
+  background-color: #f1f1f2;
+  margin: 10px;
+}
+@media (max-width: 500px) {
+  .content .card {
+    width: 90%;
+  }
+}
+.content .gitcardholder {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.content .holder {
+  width: 100%;
+  display: flex;
+}
+.content .expand-button {
+  font-size: 1.4rem;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 5px;
+  /* box-shadow: 0 1px 6px -2px #000; */
+  color: #1995ad;
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+.content .calendar {
+  border-radius: 5px;
+  box-shadow: 0 1px 6px -2px #000;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+}
+.content .calendar-hidden {
+  display: none;
+}
+.content .gitcard {
+  width: 70%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px -2px #000;
+  background-color: #f1f1f2;
+  margin: 10px;
+  line-height: 1.4;
+}
+@media (max-width: 500px) {
+  .content .gitcard {
+    width: 90%;
+  }
+}
+.content .gitcard .holder img {
+  width: 150px;
+  height: 150px;
+  border-radius: 3px;
+  margin-right: 20px;
+}
+@media (max-width: 450px) {
+  .content .gitcard .holder img {
+    display: none;
+  }
+}
+.content .gitcard .name {
+  font-size: 3.4rem;
+}
+.content .gitcard p {
+  font-size: 1.4rem;
+  margin-bottom: 3px;
+}
+.content .gitcard .username {
+  font-size: 1.8rem;
+  font-style: italic;
+  margin: 3px 0 10px;
+}
+.content .gitcard a {
+  font-size: 1.4rem;
+}
+.divIcons {
+  display: flex;
+  justify-content: space-around;
+}
