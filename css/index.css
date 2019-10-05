@@ -203,11 +203,11 @@ body h1 {
   }
 }
 body h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 @media (max-width: 500px) {
   body h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 body h3 {
@@ -225,14 +225,6 @@ body h4 {
   body h4 {
     font-size: 1.4rem;
   }
-}
-body :target:before {
-  content: "";
-  display: block;
-  height: 90px;
-  /* fixed header height*/
-  margin: -90px 0 0;
-  /* negative fixed header height */
 }
 .topBar {
   position: sticky;
@@ -314,6 +306,31 @@ body :target:before {
 .content h2 {
   margin: 3% 0px 2%;
 }
+.content .anchor {
+  position: relative;
+  border-top: 150px solid transparent;
+  margin: -30px 0 2%;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+@media (max-width: 800px) {
+  .content .anchor {
+    border-top: 100px solid transparent;
+  }
+}
+@media (max-width: 500px) {
+  .content .anchor {
+    border-top: 60px solid transparent;
+  }
+}
+.content .anchor:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: 0;
+  right: 0;
+}
 .content .card {
   width: 70%;
   padding: 20px;
@@ -326,10 +343,29 @@ body :target:before {
   background-color: #f1f1f2;
   margin: 10px;
 }
+@media (max-width: 800px) {
+  .content .card {
+    width: 90%;
+  }
+}
 @media (max-width: 500px) {
   .content .card {
     width: 90%;
   }
+}
+.content .card img {
+  box-shadow: 0 1px 10px -2px #000;
+  border-radius: 5px;
+}
+@media (max-width: 800px) {
+  .content .card img {
+    display: none;
+  }
+}
+.content .projectscardholder {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 .content .gitcardholder {
   display: flex;
@@ -361,6 +397,9 @@ body :target:before {
 .content .calendar-hidden {
   display: none;
 }
+.content .projectsholder {
+  display: flex;
+}
 .content .gitcard {
   width: 70%;
   padding: 20px;
@@ -375,6 +414,11 @@ body :target:before {
   margin: 10px;
   line-height: 1.4;
 }
+@media (max-width: 800px) {
+  .content .gitcard {
+    width: 90%;
+  }
+}
 @media (max-width: 500px) {
   .content .gitcard {
     width: 90%;
@@ -383,8 +427,9 @@ body :target:before {
 .content .gitcard .holder img {
   width: 150px;
   height: 150px;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-right: 20px;
+  box-shadow: 0 1px 10px -2px #000;
 }
 @media (max-width: 450px) {
   .content .gitcard .holder img {
